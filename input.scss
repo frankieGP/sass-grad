@@ -1,0 +1,25 @@
+@import "bourbon/_bourbon.scss";
+@import "variables";
+
+#column-blue, #column-teal, #column-gold, #column-tomato {
+  @include blocks;
+}
+@each $column in $color1, $color2, $color3, $color4 {
+  #column-#{$column} {
+    background-color: #{$column};
+  }
+
+}
+#gradient-blue {
+  @include smallblocks;
+  background-color: yellow;
+}
+#column-blue:nth-child(2) {
+  @include smallblocks;
+
+  background-color: red;
+}
+#column-blue:nth-child(3) {
+  @include smallblocks;
+  background-color: purple;
+}

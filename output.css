@@ -1,0 +1,41 @@
+#column-blue, #column-teal, #column-gold, #column-tomato {
+  display: inline-block;
+  height: 100px;
+  width: 255px;
+  border: 1px solid black;
+  margin: 10px; }
+
+#column-blue {
+  background-color: blue; }
+
+#column-teal {
+  background-color: teal; }
+
+#column-gold {
+  background-color: gold; }
+
+#column-tomato {
+  background-color: tomato; }
+
+#gradient-blue {
+  width: 255px / 3;
+  height: 100px;
+  border-right: 2px solid black;
+  display: inline-block;
+  background-color: yellow; }
+
+#column-blue:nth-child(2) {
+  width: 255px / 3;
+  height: 100px;
+  border-right: 2px solid black;
+  display: inline-block;
+  background-color: red; }
+
+#column-blue:nth-child(3) {
+  width: 255px / 3;
+  height: 100px;
+  border-right: 2px solid black;
+  display: inline-block;
+  background-color: purple; }
+
+/*# sourceMappingURL=output.css.map */
